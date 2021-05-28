@@ -12,7 +12,7 @@
 #img_1{
     width: 100%;
 }
-#start, #status, #restart{
+#start, #status{
     font-size: 25px;
 }
 h4{
@@ -31,15 +31,22 @@ h4{
     width: 40%;
     margin: 20px;
 }
+.modal-content{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
 .modal-header{
-    color: black;
+    color: white;
     display: inline;
 }
 .modal-header button{
-    color: black !important;
+    color: white !important;
     font-size: 25px;
 }
-canvas{
-    border: 2px solid blue;
-    box-shadow: 5px 5px 5px red;
+video{
+    background: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
